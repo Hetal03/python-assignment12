@@ -12,6 +12,7 @@ countries = df['country'].unique()
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 app.title = "GDP Per Capita Dashboard"
 
 # App layout
